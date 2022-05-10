@@ -197,25 +197,27 @@ background-position: 0 -70px;
 
 .ds4 .stick {
     position: absolute;
-    background: url(stickspaul111.png);
+    background: url(ps4-assets/sticks.svgz);
     height: 94px;
     width: 94px;
 }
 
 .ds4 .stick.pressed.left {
-    background-position-x: -96px;
+    background-position-x: -191px;
 }
 
 .ds4 .stick.pressed.right {
-    background-position-x: -192px;
+    background-position-x: -287px;
 }
 
 .ds4 .stick.left {
+    background-position-x: -0px;
     top: 0;
     left: 0;
 }
 
 .ds4 .stick.right {
+    background-position-x: -96px;
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }
